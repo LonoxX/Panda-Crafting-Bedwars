@@ -1,0 +1,18 @@
+name: PandaBedwars
+api-version: 1.13
+version: 2.1-SNAP
+main: de.pandacrafting.mc.main.Main
+author: D33VIL
+
+commands:
+  setup:
+    description: Setze alle noetigen Locations!
+    permission: pandabedwars.setup
+  start:
+    description: Beschleunige den Spielstart!
+    aliases:
+      - forcestart
+      - force
+    permission: pandabedwars.forcestart
+  build:
+    description: Wechsel zum Buildmodus um bauen zu koennen
